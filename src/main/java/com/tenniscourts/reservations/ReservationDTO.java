@@ -31,9 +31,9 @@ public class ReservationDTO {
 
     private BigDecimal value;
 
-    @NotNull
+
     private Long scheduledId;
 
-    @NotNull
+
     private Long guestId;
 }

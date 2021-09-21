@@ -24,6 +24,5 @@ import javax.validation.constraints.NotNull;
 public class TennisCourt extends BaseEntity<Long> {
 
     @Column
-    @NotNull
     private String name;
 }

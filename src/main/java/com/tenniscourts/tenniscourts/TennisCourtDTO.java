@@ -21,7 +21,7 @@ public class TennisCourtDTO {
 
     private Long id;
 
-    @NotNull
+
     private String name;
 
     private List<ScheduleDTO> tennisCourtSchedules;

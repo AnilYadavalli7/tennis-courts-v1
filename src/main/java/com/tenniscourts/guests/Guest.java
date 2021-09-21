@@ -26,7 +26,6 @@ import javax.validation.constraints.NotNull;
 public class Guest extends BaseEntity<Long> {
 
   @Column
-  @NotNull
   private String name;
 
 }
